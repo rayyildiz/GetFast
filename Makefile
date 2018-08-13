@@ -11,7 +11,7 @@ all: $(OBJS)
 	$(CC) -o GetFast $(OBJS) $(LDFLAGS)
 
 strip: $(all)
-	$(STRIP) aget
+	$(STRIP) fastget
 
 clean: 
 	rm -f GetFast *.o core.* *~
