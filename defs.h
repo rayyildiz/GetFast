@@ -1,21 +1,21 @@
 #ifndef DEFS_H
 #define DEFS_H
 
-#define VERSION 0.02
+#define VERSION 0.3
 
 #define DEFAULT_THREAD_NO 5
 
 #define DEBUG_X
 
-#define BUFFER_SIZE 1024
-#define BUF_SIZE 100
-#define URL_SIZE 	32
-#define HOST_SIZE 	64
-#define FILE_SIZE 	32
-#define IP_SIZE		20
-#define REQUEST_SIZE 256
+#define BUFFER_SIZE     1024
+#define BUF_SIZE        100
+#define URL_SIZE 	    32
+#define HOST_SIZE 	    64
+#define FILE_SIZE 	    32
+#define IP_SIZE		    20
+#define REQUEST_SIZE    256
 
-#define MAX_LINK_URL 20
+#define MAX_LINK_URL    20
 
 #define BOOL 	int
 #define TRUE 	1

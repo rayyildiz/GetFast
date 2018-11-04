@@ -1,5 +1,5 @@
-#include "File.h"
-#include "Download.h"
+#include "file.h"
+#include "download.h"
 
 #include <time.h>
 #include <fcntl.h>

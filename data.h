@@ -1,7 +1,7 @@
 #ifndef DATA_H
 #define DATA_H
 
-#include "Defs.h"
+#include "defs.h"
 #include <pthread.h>
 #include <netinet/in.h>
 

@@ -1,8 +1,11 @@
 GetFast by Ramazan AYYILDIZ < rayyildiz [at] gmail [dot] com >
 ---------------------------------------------------
-
+* Sun Nov 4 10:47:00 2018
+	> Code clean-up
+	> version 0.3
+	
 * Wed Nov 3 23:16:41 2004
-	> The file downloading part is almost finished.
+	> The file downloading part is finished.
 	> Started to development of link downloading part.
 	> version 0.02
 

@@ -1,10 +1,10 @@
 #ifndef URL_H
 #define URL_H
 
-#include "Defs.h"
-#include "Data.h"
-#include "Misc.h"
-#include "Head.h"
+#include "defs.h"
+#include "data.h"
+#include "misc.h"
+#include "head.h"
 
 #include <sys/socket.h>
 #include <netinet/in.h>

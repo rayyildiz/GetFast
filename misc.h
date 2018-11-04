@@ -1,8 +1,8 @@
 #ifndef MISC_H
-#define MISH_H
+#define MISC_H
 
-#include "Defs.h"
-#include "Data.h"
+#include "defs.h"
+#include "data.h"
 #include <stdio.h>
 #include <string.h>
 

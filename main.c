@@ -1,5 +1,5 @@
-#include "GetFast.h"
-#include "File.h"
+#include "main.h"
+#include "file.h"
 
 int main(int argc,char* argv[]){
 	struct url_info url;
@@ -103,7 +103,7 @@ int main(int argc,char* argv[]){
 			#ifdef DEBUG
 			printf("\t[GetFast.c] download_file is not success\n");
 			#endif
-			printf("\tDownloadýng file is failed\n");
+			printf("\tDownloading file is failed\n");
 		}
 		return SUCCESS;
 	}

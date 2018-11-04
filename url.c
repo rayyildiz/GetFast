@@ -1,5 +1,5 @@
-#include "Url.h"
-#include "Download.h"
+#include "url.h"
+#include "download.h"
 #include <time.h>
 
 struct link_data{
@@ -72,7 +72,7 @@ BOOL download_url(struct url_info* url){
 	
 	pthread_join(mthread.thread,NULL);
 	time(&finish_time);
-	printf("\tMain page is downloaded in %d sec[s]\n",(finish_time-start_time));
+	printf("\tMain page is downloaded in %ld sec[s]\n",(finish_time-start_time));
 	
 	
 	if (mthread.status!=STATUS_SUCCESS){
@@ -136,7 +136,7 @@ BOOL download_url(struct url_info* url){
 		pthread_join(wthreads[i].thread,NULL);
 		//if (wthreads[i].status==STATUS_SUCCESS) finish_file++;
 	}
-	printf("\tAll download finished in %d sec[s] \n",(finish_time-start_time));
+	printf("\tAll download finished in %ld sec[s] \n",(finish_time-start_time));
 	
 	return TRUE;
 }

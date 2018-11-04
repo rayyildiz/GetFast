@@ -3,3 +3,6 @@ compiler: gcc
 sudo: false
 script:
 - make
+
+ notifications:
+  email: true

@@ -1,10 +1,10 @@
 #ifndef FILE_H
 #define FILE_H
 
-#include "Defs.h"
-#include "Data.h"
-#include "Misc.h"
-#include "Head.h"
+#include "defs.h"
+#include "data.h"
+#include "misc.h"
+#include "head.h"
 
 #include <stdio.h>
 #include <string.h>

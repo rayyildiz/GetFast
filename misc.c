@@ -1,6 +1,6 @@
-#include "Misc.h"
+#include "misc.h"
 
-char PROGVERSION[]="\tGetFast v%.2f by Ramazan AYYILDIZ and Gazi KESKIN\n";
+char PROGVERSION[]="\tGetFast v%.1f by Ramazan AYYILDIZ\n";
 
 
 void reverse_string(char* str){
@@ -17,7 +17,7 @@ void reverse_string(char* str){
 	*s = '\0';
 	memset(str, 0, size);
 	strncpy(str, p, size);
-}
+}/*end of the everse_string*/
 
 
 void usage(){
@@ -26,7 +26,7 @@ void usage(){
 	printf("\n\tUsage : \n\t-------\n\n");
 	printf("\t  GetFast -[d/u] [-n PART_NUMBER] [-v] [-h/--help] url \n\n");
 	printf("\t  -d     : Downlaod a file \n");
-	printf("\t  -u     : Downlaod remote url and first order link to disk\n");
+	printf("\t  -u     : Downlaod remote url and save \n");
 	printf("\t  -n     : Split the remote file into parts PART_NUMBER while\n"); 
 	printf("\t           downloading the file. Default=5 parts \n");
 	printf("\t  -v     : Display version of GetFast\n");
@@ -101,7 +101,7 @@ void progress_bar(float cur,float tot){
 	for (i=0;i<(52-dot);i++){
 		printf(" ");
 	} 
-	printf("%.3f %\n",(float)rate);
+	printf("%.3f %s\n",(float)rate, "%");
 	
 	last=rate;
 }

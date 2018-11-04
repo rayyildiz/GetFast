@@ -1,5 +1,5 @@
-#include "Head.h"
-#include "Defs.h"
+#include "head.h"
+#include "defs.h"
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <netdb.h>
