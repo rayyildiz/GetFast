@@ -12,6 +12,6 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
-extern BOOL download_file(struct url_info*,int noofthreads);
+extern BOOL download_file(struct url_info *, int noOfThreads);
 
 #endif

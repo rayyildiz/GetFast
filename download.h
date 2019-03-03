@@ -6,6 +6,6 @@
 #include "misc.h"
 #include "head.h"
 
-extern void* downloader(void* arg);
+extern void *downloader(void *arg);
 
 #endif
